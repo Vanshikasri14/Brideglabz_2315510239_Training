@@ -1,0 +1,10 @@
+Best Practices & Notes
+----------------------
+1. Favor composition over inheritance where appropriate.
+2. Use 'is-a' relationship for inheritance (e.g., Dog is-a Animal).
+3. Mark methods final if they should not be overridden.
+4. Use @Override annotation when overriding methods.
+5. Keep fields private/protected and provide accessors if needed.
+6. Avoid calling overridable methods from constructors.
+7. Prefer interfaces for multiple-inheritance-like behavior.
+8. Test interactions between superclass and subclasses.
